@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: navy;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-white{
+    color: white
+}
+
+.topnav {
+            position: fixed;
+            top: 0;
+            width: 28;
+            background-color: navy;
+            overflow:hidden;
+        }
+.topnav a {
+            float: right;
+            display: block;
+            color: white;
+            text-align: center;
+            padding:14px 16px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: orange;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="Contact.html">Contact</a>
+        <a href="Portfolio Page.html">Portfolio</a>
+        <a href="Homework 2 II.html">About Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </a>
+   </div> 
+
+<div class="main">
+
+    <h1>Vick's Portfolio</h1>
+    
+    <h2>My Gallery</h2>
+
+        <p>Here are some random pictures of me.</p>
+    
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <img src="GC Vick.jpeg" alt="Vick in the grand canyon" style="width:100%">
+          <h3>Grand Canyon</h3>
+          <p>Lorem ipsum..</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="Posing Vick.png" alt="Vick posing at night" style="width:100%">
+          <h3>Night time photography</h3>
+          <p>Lorem ipsum..</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="Running Vick.png" alt="Vick running in front of mural" style="width:100%">
+          <h3>Running Aroung</h3>
+          <p>Lorem ipsum..</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="Vick BJJ.png" alt="Vick in BJJ gear" style="width:100%">
+          <h3>Training BJJ</h3>
+          <p>Lorem ipsum..</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="content">
+      <img src="Bears.png" alt="Bear" style="width:100%">
+      <h3>Chicago Bears!</h3>
+      <p>Lorem ipsum..</p>
+    </div>
+    
+    </div>
