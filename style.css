@@ -6,14 +6,6 @@ body{
     
 }
 
-.topnav {
-    position: fixed;
-    top: 0;
-    width: 28;
-    background-color: navy;
-    overflow:hidden;
-}
-
 .topnav a {
     float: right;
     display: block;
@@ -117,4 +109,19 @@ p{
     font-size: 16px;
     line-height: 24px;
     color: orange;
+}
+
+.Vick{
+    width: 550px;
+    height: 500px;
+    margin-left: -100px;
+}
+
+.bio-title{
+    text-align: center;
+    color: orange;
+}
+
+.container{
+    
 }

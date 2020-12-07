@@ -1,0 +1,36 @@
+.topnav {
+    float: center;
+    /*display: block;*/
+    color: orange;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: red;
+    color: white;
+}
+
+.container{
+    padding-top: 100px;
+}
+
+body{
+    background: orange;
+    font-family: Verdana;
+    text-align: justify;
+}
+
+.wrapper{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.contactbtn{
+    align-content: center;
+}
+
+linkedin{
+    font-size: x-large;
+}

@@ -1,0 +1,42 @@
+p{
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: orange;
+}
+
+.Vick{
+    width: 600px;
+    height: 500px;
+    
+}
+
+.bio-title{
+    text-align: center;
+    color: orange;
+}
+
+.container{
+    padding-top: 100px;
+}
+
+body{
+    background: #000080;
+    font-family: Verdana;
+    text-align: justify;
+}
+
+.topnav {
+    float: center;
+    /*display: block;*/
+    color: orange;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: red;
+    color: white;
+}
